@@ -1,0 +1,32 @@
+entero C
+inicio
+escriba "clacificacion de edad"
+llamar nueva_linea
+escriba "escriba su edad"
+llamar nueva_linea
+lea C
+si (C>90) entonces 
+escriba "anciano"
+	sino si (C>65)y(C<=90) entonces
+	escriba "tercera edad"
+		sino si (C<=65)y(C>40) entonces
+		escriba "adulto mayor"
+			sino si (C<=40)y(C>17) entonces
+			escriba "adulto"
+				sino si (C<=17)y(C>15) entonces
+				escriba "joven"
+					sino si (C<=15)y(C>10) entonces
+					escriba "adolecente"
+						sino si (C<=10)y(C>1) entonces 
+						escriba "niño"
+							sino si (C<=1) entonces
+							escriba "bebe" 
+						fin si
+					fin si
+				fin si 
+			fin si
+		fin si
+	fin si
+fin si
+fin si
+fin
