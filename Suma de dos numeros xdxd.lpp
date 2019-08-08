@@ -1,0 +1,15 @@
+real a, b, c
+inicio 
+escriba "Sumando dos numeros ingresador por teclado "
+llamar nueva_linea
+escriba "Ingrese el primer nuemero "
+lea a
+escriba "Ingrese el segundo numero "
+lea b
+c<-a+b
+escriba "La suma de  ",a
+llamar nueva_linea
+escriba "mas  ",b
+llamar nueva_linea 
+escriba "es:  ",c 
+fin
