@@ -1,0 +1,15 @@
+entero a,b,c
+inicio
+escriba "sumando dos numeros "
+
+llamar nueva_linea
+a<-25
+b<-15
+c<-a+b
+escriba "el re sultado de los dos numeros sumados es", c
+
+llamar nueva_linea
+
+escriba "",c
+
+fin
