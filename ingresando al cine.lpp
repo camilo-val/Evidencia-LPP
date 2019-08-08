@@ -1,0 +1,38 @@
+entero cedula
+inicio
+
+escriba "ingresando a cine"
+llamar nueva_linea
+escriba "por favor presentar cedula"
+lea cedula
+si (cedula<=1) entonces 
+ escriba "ingresa pelicula de bebes"
+sino
+ si (cedula<=10)y(cedula>1) entonces
+ escriba "ingresa a pelicula de niños"
+sino
+ si (cedula<=15)y(cedula>10) entonces
+ escriba "ingresa a pelicula de adolecentes"
+sino
+ si (cedula<=17)y(cedula>15) entonces
+ escriba "ingresa a pelicula de jovenes"
+sino
+ si (cedula<=40)y(cedula>17) entonces
+ escriba "ingresa a pelicula de adultos"
+sino 
+ si (cedula<=65)y(cedula>40) entonces
+ escriba "ingresa a pelicula de adulto mayor"
+sino
+ si (cedula<=90)y(cedula>65)entonces
+ escriba "ingresa a pelicula de tercera edad"
+ sino
+ escriba "ingresa a pelicula de ancianos"
+ fin si 
+ fin si
+ fin si
+ fin si
+ fin si
+ fin si
+ fin si
+
+fin
