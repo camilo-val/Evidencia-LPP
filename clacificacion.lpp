@@ -18,7 +18,7 @@ escriba "anciano"
 					sino si (C<=15)y(C>10) entonces
 					escriba "adolecente"
 						sino si (C<=10)y(C>1) entonces 
-						escriba "ni�o"
+						escriba "niño"
 							sino si (C<=1) entonces
 							escriba "bebe" 
 						fin si
@@ -27,6 +27,39 @@ escriba "anciano"
 			fin si
 		fin si
 	fin si
+fin si
+fin si
+fin
+
+entero D
+inicio
+escriba "confirmando rango de edad"
+llamar nueva_linea
+escriba "escriba su edad"
+llamar nueva_linea
+lea D
+si (D>90) entonces 
+escriba "anciano"
+sino si (D>65)y(D<=90) entonces
+escriba "tercera edad"
+sino si (D<=65)y(D>40) entonces
+escriba "adulto mayor"
+sino si (D<=40)y(D>17) entonces
+escriba "adulto"
+sino si (D<=17)y(D>15) entonces
+escriba "joven"
+sino si (D<=15)y(D>10) entonces
+escriba "adolecente"
+sino si (D<=10)y(D>1) entonces 
+escriba "niño"
+sino si (D<=1) entonces
+escriba "Bebe" 
+fin si
+fin si
+fin si 
+fin si
+fin si
+fin si
 fin si
 fin si
 fin

@@ -11,3 +11,45 @@ escriba "la suma de ",a, " mas ",b, " es: ",c
 llamar nueva_linea
 escriba "la suma de A que es ",a, " mas B que es ",b, " es C= ",c
 fin
+
+entero D
+inicio
+escriba "edad"
+llamar nueva_linea
+lea D
+si (D>90) entonces
+escriba "anciano"
+sino
+si (D>65) y (D=90) entonces
+escriba "tercera edad"
+sino
+si (D<65) y (D>40) entonces
+escriba "adulto mayor"
+sino
+si (D<40) y (D>17) entonces
+escriba "adulto"
+sino
+si (D<27) y (D>15) entonces
+escriba "joven"
+sino
+si (D<15) y (D>10) entonces
+escriba "adolecente"
+sino
+si (D>10) entonces 
+escriba "nño"
+sino
+si (D<=1) entonces
+escriba "bebe"
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+fin si
+
+fin
+
+
+
