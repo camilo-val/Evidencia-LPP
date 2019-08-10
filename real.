@@ -1,0 +1,22 @@
+Real d,e,f
+  Inicio
+   escriba "sumando dos numeros ingresados por teclado"
+    llamar Nueva_linea
+     escriba "ingrese el primer numero"
+      lea d
+       escriba "ingrese el segundo numero"
+        lea e
+          c<-d+e
+           escriba "la suma de: ",d
+            llamar nueva_linea
+           escriba "mas: ",e
+          llamar nueva_linea
+         escriba "es: f
+        llamar nueva_linea
+       escriba "la suma de a que es: ",d
+      llamar nueva_linea
+     escriba "mas b que es: ",e
+    llamar nueva_linea
+   escriba "es: ",f
+ fin
+
