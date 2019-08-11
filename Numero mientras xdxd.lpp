@@ -1,0 +1,10 @@
+entero numero 
+
+inicio
+numero <-8
+mientras (numero<10) haga 
+escriba numero 
+lea numero 
+fin mientras 
+
+fin

@@ -1,0 +1,16 @@
+entero numero, suma
+
+inicio 
+numero <-1
+suma <-0
+mientras (numero<=10) haga
+llamar nueva_linea 
+escriba "la suma va en:  ", numero
+suma <-suma+numero
+llamar nueva_linea
+numero <-numero+1
+llamar obtener_caracter
+escriba "la suma va en:  ", suma
+fin mientras
+
+fin 
