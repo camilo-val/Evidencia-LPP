@@ -1,20 +1,22 @@
 entero numero a,b
 inicio
-escriba  "digite un numero"
+escriba  "digite un numero: "
 lea a
-escriba "digite un numero"
+escriba "digite un numero: "
 lea b
 suma<-b
 numero<-a
-escriba "el numero digitado es:" ,suma
+escriba "el numero digitado es:" ,numero
+llamar nueva_linea
+escriba "el numero digitado es: ",suma
 mientras  (numero<=10) haga 
 llamar nueva_linea
 suma<-suma+numero
 llamar nueva_linea
 numero<-numero+suma
-escriba "la suma va en", suma
+escriba "la suma va en: ", suma
 llamar obtener_linea
 fin mientras
-llamar nueva linea
+llamar nueva_linea
 escriba suma
 fin
