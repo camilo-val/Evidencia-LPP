@@ -15,7 +15,7 @@ suma<-suma+numero
 llamar nueva_linea
 numero<-numero+suma
 escriba "la suma va en: ", suma
-llamar obtener_linea
+llamar obtener_carcter
 fin mientras
 llamar nueva_linea
 escriba suma
