@@ -3,14 +3,14 @@ Real a, b, c
 
 Inicio
 
-escriba "sumando dos numeros ingresados ??por teclado"
+escriba "sumando dos numeros ingresados por teclado"
 llamar  Nueva_linea
-escriba "ingrese el primer numero"
+escriba "ingrese el primer numero: "
 lea a
-escriba "ingrese el segundo numero"
+escriba "ingrese el segundo numero: "
 lea b
- c <-a + b
-escriba "la suma de:", a
+ c<-a + b
+escriba "la suma de: ", a
 llamar nueva_linea
 escriba "mas:", b
 llamar nueva_linea
