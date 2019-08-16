@@ -1,0 +1,40 @@
+real a,b,ca
+caracter c
+entero opcion2, loase, h, area
+inicio 
+escriba "ingrese un caracter del menu"
+llamar nueva_linea
+escriba "S para la suma"
+llamar nueva_linea
+escriba "R para la resta"
+llamar nueva_linea
+escriba "caracter distinto R o S para terminar"
+llamar nueva_linea
+lea c
+caso c
+	's', 'S': escriba " vamos a la suma"
+	     llamar nueva_linea
+	     escriba "digite el primer numero"
+	     llamar nueva_linea
+	     lea a
+	     escriba "digite el segundo numero"
+	     llamar nueva_linea
+	     lea b
+	     llamar nueva_linea
+	     ca<-a+b
+	     escriba "la suma es: ",ca
+	'r', 'R': escriba "vamos a la resta"
+	     llamar nueva_linea
+	     escriba "digite el primer numero"
+	     llamar nueva_linea
+	     lea a
+	     escriba "digite el segundo numero"
+	     llamar nueva_linea
+	     lea b
+	     llamar nueva_linea
+	     ca<-a-b
+	     escriba "la resta es: ", ca
+  sino: escriba "operacion ivalida"
+  fin caso
+  fin
+ 
