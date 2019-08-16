@@ -1,7 +1,7 @@
 entero numero, suma
 
 inicio 
-numero <-1
+numero <-1  
 suma <-0
 mientras (numero<=10) haga
 llamar nueva_linea 
