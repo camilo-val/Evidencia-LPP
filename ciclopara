@@ -1,0 +1,9 @@
+entero i,j,suma
+inicio
+suma<-0
+para i<-1 hasta 8 haga
+escriba i
+llamar nueva_linea
+i<-i+1
+fin para
+fin
