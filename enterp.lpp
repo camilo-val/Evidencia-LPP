@@ -1,11 +1,12 @@
-entero numero,suma,a,b
+entero numero,suma,A, B
+
 inicio
+escriba "digite un numero: " 
+lea A
 escriba "digite un numero: "
-lea a
-escriba "digite un numero: "
-lea b
-suma<-b
-numero<-a
+lea B
+suma<-B
+numero<-A
 escriba "el numero digitado es:" ,numero
 llamar nueva_linea
 escriba "el numero digitado es: ",suma
@@ -21,4 +22,5 @@ llamar obtener_caracter
 fin mientras
 llamar nueva_linea
 escriba "el valor final de la suma es: ", suma
+
 fin
