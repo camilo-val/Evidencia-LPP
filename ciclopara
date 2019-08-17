@@ -6,4 +6,15 @@ escriba i
 llamar nueva_linea
 i<-i+1
 fin para
+llamar nueva_linea
+escriba "numero impares"
+llamar nueva_linea
+llamar nueva_linea
+para i<-0 hasta 8 haga 
+escriba i 
+llamar nueva_linea
+
+i<-i+1
+
+fin para
 fin
