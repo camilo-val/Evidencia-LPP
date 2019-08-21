@@ -1,0 +1,14 @@
+entero numero1
+cadena [2] c
+caracter i 
+real numero2 
+
+Inicio
+ escriba "ingrese un numero entero"
+ llamar nueva_linea
+ lea numero1
+ mientras numero1= 521 haga
+ llamar nueva_linea
+ escriba "exito"
+ lea numero1
+ fin mientras
